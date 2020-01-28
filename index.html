@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">\
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Tickets</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Movie Ticket Price</h1>
+    </div>
+    <form>
+    <label>what movie do you want to see?</label>
+    <select class="form-control" id="movie">
+      <option value="5">1917</option>
+      <option value="3">joker</option>
+      <option value="1">harry potter</option>
+    </select>
+    <label>what time would you like to go?</label>
+    <select class="form-control" id="time">
+      <option value="1">matinee</option>
+      <option value="3">night time</option>
+    </select>
+      <label>what is your age?</label>
+      <select class="form-control" id="age">
+          <option value="2">0-12</option>
+          <option value="3">13-17</option>
+          <option value="5">17-60</option>
+          <option value="1">61+</option>
+
+        </select>
+      <button class="btn-danger">show me the price!</button>
+    </form>
+  </div>
+</body>
+</html>
